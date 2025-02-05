@@ -35,12 +35,7 @@ const socialMediaLinks = {
   github: "https://github.com/ArunDoddi",
   linkedin: "https://www.linkedin.com/in/vijay-arun-doddi-08087277/",
   gmail: "vadoddi1994@gmail.com",
-  // gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/arun.doddi.7",
-  // medium: "https://medium.com/@saadpasta",
-  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
 
@@ -87,10 +82,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    // {
-    //   skillName: "swift",
-    //   fontAwesomeClassname: "fab fa-swift"
-    // },
+    {
+      skillName: "spring-boot",
+      fontAwesomeClassname: "fas fa-leaf"
+    },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -98,6 +93,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "aws",
@@ -211,39 +210,6 @@ const openSource = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Some big projects you have worked on
-
-// const bigProjects = {
-//   title: "Big Projects",
-//   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-//   projects: [
-//     {
-//       image: require("./assets/images/saayaHealthLogo.webp"),
-//       projectName: "Saayahealth",
-//       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-//       footerLink: [
-//         {
-//           name: "Visit Website",
-//           url: "http://saayahealth.com/"
-//         }
-//         //  you can add extra buttons here.
-//       ]
-//     },
-//     {
-//       image: require("./assets/images/nextuLogo.webp"),
-//       projectName: "Nextu",
-//       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-//       footerLink: [
-//         {
-//           name: "Visit Website",
-//           url: "http://nextu.se/"
-//         }
-//       ]
-//     }
-//   ],
-//   display: true // Set false to hide this section, defaults to true
-// };
-
 // Achievement Section
 // Include certificates, talks etc
 
@@ -283,83 +249,13 @@ const achievementSection = {
       footerLink: [
         {
           name: "Spring Boot Certification",
-          url: "https://www.linkedin.com/in/vijay-arun-doddi-08087277/overlay/1728883278149/single-media-viewer?type=IMAGE&profileId=ACoAABBS1OAB8h9-PNXZO1VhiQOAuQ_NDRvj82c&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BnWRnGy9ASsKFkTkE3HiiyQ%3D%3D"
+          url: "https://udemy-certificate.s3.amazonaws.com/image/UC-0fd093cd-f6b4-4860-bbad-94097df8df01.jpg"
         }
       ]
     }
-
-    // {
-    //   title: "PWA Web App Developer",
-    //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-    //   image: require("./assets/images/pwaLogo.webp"),
-    //   imageAlt: "PWA Logo",
-    //   footerLink: [
-    //     {name: "Certification", url: ""},
-    //     {
-    //       name: "Final Project",
-    //       url: "https://pakistan-olx-1.firebaseapp.com/"
-    //     }
-    //   ]
-    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
-// Blogs Section
-
-// const blogSection = {
-//   title: "Blogs",
-//   subtitle:
-//     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-//   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-//   blogs: [
-//     {
-//       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-//       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-//       description:
-//         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-//     },
-//     {
-//       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-//       title: "Why REACT is The Best?",
-//       description:
-//         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-//     }
-//   ],
-//   display: true // Set false to hide this section, defaults to true
-// };
-
-// Talks Sections
-
-// const talkSection = {
-//   title: "TALKS",
-//   subtitle: emoji(
-//     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-//   ),
-
-//   talks: [
-//     {
-//       title: "Build Actions For Google Assistant",
-//       subtitle: "Codelab at GDG DevFest Karachi 2019",
-//       slides_url: "https://bit.ly/saadpasta-slides",
-//       event_url: "https://www.facebook.com/events/2339906106275053/"
-//     }
-//   ],
-//   display: true // Set false to hide this section, defaults to true
-// };
-
-// Podcast Section
-
-// const podcastSection = {
-//   title: emoji("Podcast 🎙️"),
-//   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-//   // Please Provide with Your Podcast embeded Link
-//   podcast: [
-//     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-//   ],
-//   display: true // Set false to hide this section, defaults to true
-// };
 
 // Resume Section
 const resumeSection = {

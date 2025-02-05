@@ -5,7 +5,7 @@
 
 <p align="center">
   <kbd>
-<img src="https://user-images.githubusercontent.com/53429438/106779355-e9cd9e80-666c-11eb-9417-8a4b54441bc6.gif"></img>
+<img src="./src/assets/images/portfolio_home.png"></img>
   </kbd>
 </p>
 
@@ -17,11 +17,10 @@ If you'd like to **contribute** and make this much better for other users, have 
 Created something awesome for your fork of the portfolio and want to share it? Feel free to open a [pull request](https://github.com/saadpasta/developerFolio/pulls).
 
 ## Table of Contents
-- [Sections](#sections)
+- [Sections](#portfolio-sections)
 - [Getting Started](#getting-started)
 - [How to Use](#how-to-use)
 - [Linking portfolio to GitHub](#linking-portfolio-to-github)
-- [Linking blogs section to Medium](#linking-blogs-section-to-medium)
 - [Change and Customize](#change-and-customize-every-section-according-to-your-need)
 - [Deployment](#deployment)
 - [Technologies Used](#technologies-used)
@@ -128,21 +127,6 @@ If you are seeing something as shown below, follow these [instructions](https://
 ![ERROR](https://i.imgur.com/Hj6mu1K.png)
 
 If the above solution still doesn't work, visit the [wiki page](https://github.com/saadpasta/developerFolio/wiki/Github-Setup-For-Open-Source-Projects).
-
-## Linking blogs section to Medium
-
-Optionally, you can link the blogs section to your medium user account:
-
-* Inside the .env file, add key `MEDIUM_USERNAME` and assign your Medium username
-
-```env
-// .env
-MEDIUM_USERNAME = "YOUR MEDIUM USERNAME"
-```
-
-* For Github Action, change the environment variable `MEDIUM_USERNAME` in `.github/workflows/deploy.yml`
-
-Set `displayMediumBlogs` to true or false in portofolio.js to display fetched Medium blogs, defaults to true.
 
 ## Change and customize every section according to your need.
 
