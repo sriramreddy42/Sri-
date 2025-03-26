@@ -20,22 +20,22 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Vijay Arun",
-  title: "Hi all, I'm Vijay Arun",
+  username: "Sriram Reddy Bandari",
+  title: "Hey hi..., I'm Ram",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Spring Boot and some other cool libraries and frameworks."
-  ),
+    "A passionate Full Stack Software Developer 🚀 with extensive experience in building dynamic web applications using JavaScript, React.js, Node.js, and Spring Boot. Proficient in developing scalable backend services and crafting intuitive user interfaces, I thrive on leveraging modern frameworks and libraries to deliver impactful solutions that enhance user experience and drive business growth."
+    ),
   resumeLink:
-    "https://1drv.ms/b/c/6b767768d96ca0b7/IQT4uV6NDXxhSKSW0wOa_5ZuAVsMEqQXf-gvTmwOEeNJtXM", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1Eci0-PkZe1JiMyko333jkS1i3YVE4OAU/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/ArunDoddi",
-  linkedin: "https://www.linkedin.com/in/vijay-arun-doddi-08087277/",
-  gmail: "vadoddi1994@gmail.com",
-  facebook: "https://www.facebook.com/arun.doddi.7",
+  github: "https://github.com/sriramreddy42",
+  linkedin: "https://www.linkedin.com/in/sriram-b-875a06324/",
+  gmail: "sbandari@careerattainment.com",
+  facebook: "https://www.facebook.com/ram.mandly",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -128,17 +128,17 @@ const educationInfo = {
       logo: require("./assets/images/UDLogo.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "August 2022 - May 2024",
-      desc: "Worked as HRL for 2 years. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      desc: " Took courses about Software Engineering, Operating Systems, Azure Cloud Computing ...",
       descBullets: [
         "Completed a course on Safety and Security in Autonomous Systems, gaining hands-on experience in simulating a bouncing ball, autonomous cruise control systems, and exploring security mechanisms in robotic vacuum cleaners, room sensors, and other autonomous technologies.",
         "Completed a course on Web Semantics, gaining hands-on experience in creating a web application that uses semantic web technologies to provide a personalized experience for users.",
       ]
     },
     {
-      schoolName: "Gayatri Vidya Parishad College of Engineering",
-      logo: require("./assets/images/GVPLogo.jpg"),
+      schoolName: "Lovely Professional University",
+      logo: require("./assets/images/LPU.png"),
       subHeader: "Bachelor of Technology in Computer Science",
-      duration: "September 2012 - April 2016",
+      duration: "August 2017 - April 2021",
       desc: "Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: [
         "Compleeted a course on Data Structures and Algorithms, semantically analyzing the time and space complexity of algorithms and implementing them in Java.",
@@ -154,7 +154,7 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "60%" //Insert relative proficiency in percentage
+      progressPercentage: "75%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
@@ -174,30 +174,19 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Consultant",
-      company: "Enrich Technology",
-      companylogo: require("./assets/images/enrich_logo.png"),
-      date: "August 2024 - Present",
-      desc: "Designed and developed scalable web applications using **Spring Boot** for backend services, **React & Vue** for dynamic front-end experiences, and **MongoDB** for efficient data storage, ensuring seamless integration, high performance, and maintainability."
+      role: "Full Stack Developer",
+      company: "PTC",
+      companylogo: require("./assets/images/PTC.png"),
+      date: "January 2024 - Present",
+      desc: "Developed a high-performance front-end with React and Redux, Engineered a robust microservices-based architecture utilizing Java (Spring Boot), J2EE, and Spring Cloud, enabling seamless independent deployments, horizontal scaling, and modular service management across the platform"
     },
     {
-      role: "Senior Software Engineer",
-      company: "Altran Technologies",
-      companylogo: require("./assets/images/altran_logo.jpg"),
+      role: "Full Stack Developer",
+      company: "Magna Info Tech",
+      companylogo: require("./assets/images/MI.jpeg"),
       date: "July 2021 – August 2022",
-      desc: "Worked on a project for a cisco client. Developed a web application using ReactJS, Redux, and Spring Boot. Developed a REST API using SprinBoot. Developed a web application using ReactJS, Redux, and NodeJS.",
-      // descBullets: [
-      //   "",
-      //   ""
-      // ]
+      desc: "Designed scalable microservices-based RESTful APIs using Java, Spring Boot, and Spring Cloud. Enhanced data persistence performance by 30% through advanced Hibernate and JDBC tuning, caching strategies, and database partitioning; managed MySQL and PostgreSQL databases with effective indexing, partitioning, and replication for high availability.",
     },
-    {
-      role: "Application Developer",
-      company: "Onmobile Global Limited",
-      companylogo: require("./assets/images/OnmoLogo.jpg"),
-      date: "August 2016 – June 2021",
-      desc: "Engineered seamless API integrations, optimized data retrieval with JPQL, enhanced UI efficiency, streamlined request workflows in ONMOX, and bolstered deployment reliability by troubleshooting failed nodes."
-    }
     
   ]
 };
@@ -220,19 +209,15 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Oracle Autonomous Database Cloud 2019 Certified Specialist",
+      title: "Micro1: Official Fullstack Developer",
       subtitle:
-        "Knowledge on the features and workflows of Autonomous Database; provisioning and connecting, migration using SQL Developer, Data Pump and Golden Gate, manage and monitor, and understands tools, reporting and analytics using Autonomous Data Warehouse.",
-      image: require("./assets/images/orc_cld_specialist.png"),
+        "This certification reflects my dedication to building robust and scalable software solutions while continuing to grow and contribute to innovative projects.",
+      image: require("./assets/images/Micro1.jpg"),
       imageAlt: "Oracle Autonomous Database Cloud 2019 Certified Specialist",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://www.credly.com/badges/2ef07c14-57e4-448c-ad1f-4ce69d2c9fa8/linked_in_profile"
-        },
-        {
           name: "Award Letter",
-          url: "https://www.credly.com/badges/2ef07c14-57e4-448c-ad1f-4ce69d2c9fa8/linked_in_profile"
+          url: "https://drive.google.com/file/d/10-D11fPzKaLbi04F-VO3wxqY0zCKt-GN/view?usp=sharing"
         }
         // {
         //   name: "Google Code-in Blog",
@@ -240,19 +225,19 @@ const achievementSection = {
         // }
       ]
     },
-    {
-      title: "Spring and Hibernate",
-      subtitle:
-        "Gained immense knowledge on Spring and Hibernate frameworks, and developed web applications using Spring Boot, Spring MVC, Spring Security, and Hibernate.",
-      image: require("./assets/images/spring_cert.png"),
-      imageAlt: "Spring Boot Certificate Logo",
-      footerLink: [
-        {
-          name: "Spring Boot Certification",
-          url: "https://udemy-certificate.s3.amazonaws.com/image/UC-0fd093cd-f6b4-4860-bbad-94097df8df01.jpg"
-        }
-      ]
-    }
+    // {
+    //   title: "***********",
+    //   subtitle:
+    //     "************",
+    //   image: require("./assets/images/Micro1.jpg"),
+    //   imageAlt: "Spring Boot Certificate Logo",
+    //   footerLink: [
+    //     {
+    //       name: "******",
+    //       url: "*****"
+    //     }
+    //   ]
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -270,8 +255,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss about a role or just want to say hi? My Inbox is open for all.",
-  number: "+1-9373511097",
-  email_address: "vadoddi1994@gmail.com"
+  number: "+1-9372518688",
+  email_address: "sbandari@careerattainment.com"
 };
 
 // Twitter Section
