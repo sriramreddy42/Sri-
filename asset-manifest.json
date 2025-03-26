@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/Sri-/static/css/main.fe51c9df.css",
-    "main.js": "/Sri-/static/js/main.18e5b845.js",
+    "main.js": "/Sri-/static/js/main.ed2d4263.js",
     "static/css/487.bb36206c.chunk.css": "/Sri-/static/css/487.bb36206c.chunk.css",
-    "static/js/487.baf91438.chunk.js": "/Sri-/static/js/487.baf91438.chunk.js",
+    "static/js/487.e31c2591.chunk.js": "/Sri-/static/js/487.e31c2591.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/Sri-/static/css/990.c6a7ee28.chunk.css",
-    "static/js/990.e9c76495.chunk.js": "/Sri-/static/js/990.e9c76495.chunk.js",
+    "static/js/990.c9863d6b.chunk.js": "/Sri-/static/js/990.c9863d6b.chunk.js",
     "static/media/resume.pdf": "/Sri-/static/media/resume.d8ff6023fa335b8b8cb7.pdf",
     "static/media/Montserrat-Regular.ttf": "/Sri-/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Micro1.jpg": "/Sri-/static/media/Micro1.0fe59c1a2b454dd01fce.jpg",
@@ -18,14 +18,14 @@
     "static/media/skill.svg": "/Sri-/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/Sri-/index.html",
     "main.fe51c9df.css.map": "/Sri-/static/css/main.fe51c9df.css.map",
-    "main.18e5b845.js.map": "/Sri-/static/js/main.18e5b845.js.map",
+    "main.ed2d4263.js.map": "/Sri-/static/js/main.ed2d4263.js.map",
     "487.bb36206c.chunk.css.map": "/Sri-/static/css/487.bb36206c.chunk.css.map",
-    "487.baf91438.chunk.js.map": "/Sri-/static/js/487.baf91438.chunk.js.map",
+    "487.e31c2591.chunk.js.map": "/Sri-/static/js/487.e31c2591.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/Sri-/static/css/990.c6a7ee28.chunk.css.map",
-    "990.e9c76495.chunk.js.map": "/Sri-/static/js/990.e9c76495.chunk.js.map"
+    "990.c9863d6b.chunk.js.map": "/Sri-/static/js/990.c9863d6b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe51c9df.css",
-    "static/js/main.18e5b845.js"
+    "static/js/main.ed2d4263.js"
   ]
 }
